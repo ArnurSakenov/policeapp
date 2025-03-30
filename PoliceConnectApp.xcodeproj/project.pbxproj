@@ -93,6 +93,7 @@
 		18175FB22D96DE6A00DB8747 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18175FE02D99502E00DB8747 /* LoginResponse.swift */,
 				18175FB32D96DE7E00DB8747 /* NewsItem.swift */,
 				18175FBA2D96F35800DB8747 /* Incident.swift */,
 				18175FC72D97027F00DB8747 /* Message.swift */,
@@ -115,6 +116,23 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		18175FEF2D996DDB00DB8747 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A5822D96C30000E837C9 /* NewsFeedView.swift */,
+				18175FD02D97090700DB8747 /* PoliceCallView.swift */,
+				18175FD22D970AC500DB8747 /* ShakeDetectingView.swift */,
+				18175FDC2D99422A00DB8747 /* NewsRowView.swift */,
+				18175FDE2D99453E00DB8747 /* NewsDetailView.swift */,
+				18175FE42D99504E00DB8747 /* LoginView.swift */,
+				18175FED2D99600900DB8747 /* ChatWebSocketView.swift */,
+				18175FBE2D96F38600DB8747 /* IncidentReportView.swift */,
+				18175FCB2D9702BE00DB8747 /* ChatView.swift */,
+				18175FC02D96F48000DB8747 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		18D0A5742D96C30000E837C9 = {
 			isa = PBXGroup;
 			children = (
@@ -134,24 +152,14 @@
 		18D0A57F2D96C30000E837C9 /* PoliceConnectApp */ = {
 			isa = PBXGroup;
 			children = (
+				18175FEF2D996DDB00DB8747 /* Views */,
 				18175FB52D96DFFE00DB8747 /* ViewModels */,
 				18175FB22D96DE6A00DB8747 /* Models */,
 				18D0A5802D96C30000E837C9 /* PoliceConnectApp.swift */,
 				18175FD42D988B3000DB8747 /* GoogleService-Info.plist */,
-				18D0A5822D96C30000E837C9 /* NewsFeedView.swift */,
 				18D0A5842D96C30100E837C9 /* Assets.xcassets */,
 				18D0A5862D96C30100E837C9 /* Preview Content */,
-				18175FBE2D96F38600DB8747 /* IncidentReportView.swift */,
-				18175FC02D96F48000DB8747 /* ContentView.swift */,
-				18175FCB2D9702BE00DB8747 /* ChatView.swift */,
-				18175FD02D97090700DB8747 /* PoliceCallView.swift */,
-				18175FD22D970AC500DB8747 /* ShakeDetectingView.swift */,
 				18175FD62D9892EA00DB8747 /* MediaPicker.swift */,
-				18175FDC2D99422A00DB8747 /* NewsRowView.swift */,
-				18175FDE2D99453E00DB8747 /* NewsDetailView.swift */,
-				18175FE02D99502E00DB8747 /* LoginResponse.swift */,
-				18175FE42D99504E00DB8747 /* LoginView.swift */,
-				18175FED2D99600900DB8747 /* ChatWebSocketView.swift */,
 			);
 			path = PoliceConnectApp;
 			sourceTree = "<group>";
